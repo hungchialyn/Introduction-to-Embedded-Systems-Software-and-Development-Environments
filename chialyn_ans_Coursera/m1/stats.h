@@ -9,13 +9,14 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.h
+ * @brief Header file for statistical analytics functions
  *
- * <Add Extended Description Here>
+ * This file contains the declarations and documentation for functions
+ * that perform statistical analysis on an array of unsigned char data.
  *
  * @author Hung Chia Lyn
- * @date 2026-4-19
+ * @date 2026-April-19
  *
  */
 #ifndef __STATS_H__
@@ -88,8 +89,6 @@ unsigned char find_minimum(unsigned char *arr, unsigned int n);
  * @return     void
  */
 void sort_array(unsigned char *arr, unsigned int n);
-
-#endif /* __STATS_H__ */
 
 
 #endif /* __STATS_H__ */
